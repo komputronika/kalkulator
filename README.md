@@ -1,7 +1,7 @@
 # Kalkulator
 Contoh menggunakan composer, PSR4 dan unit test dengan PHP
 
-Ini adalah contoh sederhana bagaimana membuat sebuah package menggukan PHP Composer, PSR4 dan Unit test.
+Ini adalah contoh sederhana bagaimana membuat sebuah package menggunakan PHP Composer, PSR4 dan Unit test.
 
 Untuk menggunakan package ini anda memerlukan
 
@@ -15,7 +15,7 @@ Untuk mempelajari package ini, silahkan clone dengan cara:
 git clone git@github.com:komputronika/kalkulator.git
 ```
 
-atau dengan cara download.
+atau dengan cara [download](https://github.com/komputronika/kalkulator/releases/).
 
 
 ## Cara menggunakan package
@@ -26,9 +26,21 @@ Buatlah sebuah folder misalnya `demo_kalkulator`, kemudian buatlah sebuah file d
 
 ```json
 {
+    "name": "demo/kalkulator",
+    "description": "Coba composer",
+    "require-dev": {
+        "phpunit/phpunit": "dev"
+    },
     "require": {
-        "komputronika/kalkulator": "1.1.0"
-    }
+        "komputronika/kalkulator": "1.0.0"
+    },
+    "authors": [
+        {
+            "name": "Saya",
+            "email": "saya@email.com"
+        }
+    ],
+    "minimum-stability": "dev"
 }
 ``` 
 
@@ -69,7 +81,7 @@ Composer akan otomatis mendownload package-package yang dibutuhkan ke dalam fold
 
 ## Test di browser
 
-Buka browser anda pada alamat `http://localhost/demo_calculator'
+Buka browser anda pada alamat `http://localhost/demo_kalculator`
 
 
 
