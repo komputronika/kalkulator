@@ -10,8 +10,8 @@
          stopOnFailure="false"
          syntaxCheck="false">
     <testsuites>
-        <testsuite name="Piepin Test Suite">
-            <directory suffix=".php">../komputronika/tests/</directory>
+        <testsuite name="Komputronika Test Suite">
+            <directory suffix=".php">komputronika/tests/</directory>
         </testsuite>
     </testsuites>
 </phpunit>
