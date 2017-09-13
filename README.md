@@ -1,15 +1,14 @@
-# Kalkulator
-Contoh menggunakan composer, PSR4 dan unit test dengan PHP
+# Contoh Menggunakan Composer, PSR4 & Unit Test 
 
-Ini adalah contoh sederhana bagaimana membuat sebuah package menggunakan PHP Composer, PSR4 dan Unit test.
+Ini adalah proyek contoh sederhana tentang bagaimana membuat dan menggunakan sebuah package menggunakan PHP Composer, PSR4 dan Unit test.
 
-Untuk menggunakan package ini anda memerlukan
+Untuk menggunakan package ini anda memerlukan software:
 
 * [Git](https://git-scm.com/downloads)
 * [Composer](https://getcomposer.org/download/)
 * PHP minimal versi 5.4
 
-Untuk mempelajari package ini, silahkan clone dengan cara:
+Untuk mempelajari contoh ini, silahkan clone dengan cara:
 
 ```sh
 git clone git@github.com:komputronika/kalkulator.git
@@ -29,10 +28,10 @@ Buatlah sebuah folder misalnya `demo_kalkulator`, kemudian buatlah sebuah file d
     "name": "demo/kalkulator",
     "description": "Coba composer",
     "require-dev": {
-        "phpunit/phpunit": "dev"
+        "phpunit/phpunit": "4.0.*"
     },
     "require": {
-        "komputronika/kalkulator": "1.0.0"
+        "komputronika/kalkulator": "1.0.*"
     },
     "authors": [
         {
@@ -46,7 +45,7 @@ Buatlah sebuah folder misalnya `demo_kalkulator`, kemudian buatlah sebuah file d
 
 ### Membuat file index.php
 
-Masih dalam folder yang sama, buatlah sebuah file baru dengan nama `index.php` dengan isi sebagai berikut:
+Masih dalam folder `demo_kalkulator`, buatlah sebuah file baru dengan nama `index.php` dengan isi sebagai berikut:
 
 ```php
 <?php
@@ -71,17 +70,48 @@ echo "</body></html>";
 
 ## Jalankan composer
 
-Masih dalam folder yang sama, jalankan composer dengan perintah:
+Masih dalam folder `demo_kalkulator`, jalankan composer dengan perintah:
 ```sh
 composer install
 ```
-Anda harus terhubung dengan internet untuk menjalankan perintah ini.
+Anda harus terhubung dengan internet untuk menjalankan perintah composer ini, dan akan membutuhkan waktu beberapa menit, tergantung kecepatan koneksi internet anda.
 
-Composer akan otomatis mendownload package-package yang dibutuhkan ke dalam folder `vendor',  sesuai dengan yang dituliskan pada file `composer.json'.
+Composer akan otomatis mendownload package ini (`komputronika/kalkulator`) dan package-package yang dibutuhkan ke dalam folder `vendor`,  sesuai dengan yang dituliskan pada file `composer.json`.
+
+Struktur folder di dalam `demo_kalkulator` akan seperti ini:
+
+```
+.
+├── composer.json
+├── composer.lock
+├── index.php
+└── vendor
+    ├── autoload.php
+    ├── bin
+    ├── composer
+    ├── komputronika
+    ├── phpunit
+    ├── sebastian
+    └── symfony
+```
 
 ## Test di browser
 
-Buka browser anda pada alamat `http://localhost/demo_kalculator`
+Buka browser anda pada alamat `http://localhost/demo_kalkulator`
+
+Kalau instalasi anda sudah benar, maka tampilan di browser akan seperti ini:
+
+```
+Demo Kalkulator dengan Composer
+
+100 + 5 = 105
+100 - 5 = 95
+100 * 5 = 500
+100 / 5 = 20
+```
+---
+
+Penjelasan mengenai ini diposting di [Blog](http://blog.duniahost.com).
 
 
 
