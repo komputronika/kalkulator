@@ -2,7 +2,6 @@
     "name": "komputronika/kalkulator",
     "description": "Demo Composer PSR4 Autoload",
     "license": "Free",
-    "version": "1.0.0", 
     "keywords": ["kalkulator","composer"],
     "homepage": "http://www.duniahost.com",
     "authors": [
