@@ -1,0 +1,22 @@
+{
+    "name": "komputronika/kalkulator",
+    "description": "Demo Composer PSR4 Autoload",
+    "license": "Free",
+    "keywords": ["kalkulator","composer"],
+    "homepage": "http://www.duniahost.com",
+    "authors": [
+        {
+            "name": "Komputronika",
+            "email": "info@komputronika.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Komputronika\\Kalkulator\\": "komputronika/src"
+        }
+    }
+}
