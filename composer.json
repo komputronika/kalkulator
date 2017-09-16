@@ -7,7 +7,7 @@
     "authors": [
         {
             "name": "Komputronika",
-            "email": "info@komputronika.com"
+            "email": "infokomputronika@gmail.com"
         }
     ],
     "require": {},
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Komputronika\\Kalkulator\\": "komputronika/src"
+            "Komputronika\\Kalkulator\\": "src"
         }
     }
 }

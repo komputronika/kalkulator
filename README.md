@@ -1,6 +1,7 @@
 # Contoh Menggunakan Composer, PSR4 & Unit Test 
 
-[![Build Status](https://travis-ci.org/komputronika/kalkulator.svg?branch=master)](https://travis-ci.org/komputronika/kalkulator) [![Latest Stable Version](https://poser.pugx.org/komputronika/kalkulator/version)](https://packagist.org/packages/phpunit/phpunit) [![Total Downloads](https://poser.pugx.org/komputronika/kalkulator/downloads)](https://packagist.org/packages/phpunit/phpunit)
+[![Build Status](https://travis-ci.org/komputronika/kalkulator.svg?branch=master)](https://travis-ci.org/komputronika/kalkulator) [![Latest Stable Version](https://poser.pugx.org/komputronika/kalkulator/version)](https://packagist.org/packages/komputronika/kalkulator) [![Total Downloads](https://poser.pugx.org/komputronika/kalkulator/downloads)](https://packagist.org/packages/komputronika/kalkulator) [![Follow](https://img.shields.io/twitter/follow/komputronika.svg?style=social&label=Follow)](https://twitter.com/intent/follow?screen_name=komputronika)
+
 
 Ini adalah proyek contoh sederhana tentang bagaimana membuat dan menggunakan sebuah package menggunakan PHP Composer, PSR4 dan Unit test.
 
