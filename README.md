@@ -112,9 +112,6 @@ Demo Kalkulator dengan Composer
 100 * 5 = 500
 100 / 5 = 20
 ```
----
-
-Penjelasan mengenai ini diposting di [Blog](http://blog.duniahost.com).
 
 
 
